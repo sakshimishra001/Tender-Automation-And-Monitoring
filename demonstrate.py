@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
-tender_notifier.py
 
-Demo automator: scrape a tender page, filter by keywords, notify via email for NEW relevant tenders.
+
 
 Install:
     pip install requests beautifulsoup4 python-dotenv
@@ -11,7 +10,7 @@ Run:
     # Dry run (no email)
     DRY_RUN=1 python tender_notifier.py
 
-    # Real run (set SMTP config env vars -- see README comments below)
+    # Real run (set SMTP config env vars )
     python tender_notifier.py
 """
 
@@ -190,3 +189,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
